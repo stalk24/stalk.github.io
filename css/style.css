@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #5280bf;
+}	
+
+main {
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+	padding: 50px;
+    width: 70%;
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 48px;
+	text-align: center;
+	width: 100%;
+}
+
+ .photo {
+ 	width: calc(50% - 40px);
+ 	height: calc((35vw - 40px) / 16*9);
+ 	margin: 20px;
+ 	background-color:#ffffff;
+ 	background-size: cover; 
+ }
+ .photo:hover {
+  transform: rotate(3deg) scale(1.07);
+  box-shadow: 9px 9px 6px rgba(0,0,0,0.4);
+ }
+ .cov {
+ 	display: block;
+ 	background-color: #f00;
+ 	min-height: 100%;
+ 	min-width: 100%;
+ 	transition: all 0.3s linear;
+ }
+
+ .cov:hover {
+ 	background-color: #f000;
+ 	transition: all 0.3s linear;
+ }
+
+
+.bord { border: solid 5px #000000;
+    border-radius:3px;
+ }  
+  .photo1 {
+  	  background-image: url(../img/img1.jpg);
+  }
+  .photo2{
+  	  background-image: url(../img/img2.jpg); 
+  }
+  .photo3{
+  	  background-image: url(../img/img3.jpg); 
+  }
+  .photo4{
+  	  background-image: url(../img/img4.jpg);
+  }	   
+  .photo5 {
+  	  background-image: url(../img/img5.jpg);
+  }
+  .photo6{
+  	  background-image: url(../img/img6.jpg); 
+  }
+ 
